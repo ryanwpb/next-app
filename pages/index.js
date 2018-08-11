@@ -18,9 +18,12 @@ class IndexPage extends Component {
                 <h1>The Main Page of {this.props.appName}</h1>
                 <p>Go to<Link href="/auth"><a> Auth</a></Link></p>
                 <style jsx>{`
+                h1 {
+                  color: #072F5F;
+                }
                a {
                   text-decoration: none;
-              }
+                }
             `}</style>
             </div>
         )

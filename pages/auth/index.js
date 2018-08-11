@@ -8,8 +8,12 @@ const authindexPage = () => (
         <p><Link href="/"><a>Home</a></Link></p>
         <User name="Ryan Graham" age={38} />
         <style jsx>{`
+        h1 {
+            color: #072F5F; 
+        }
          a {
             text-decoration: none;
+            
         }
       `}</style>
     </div>
