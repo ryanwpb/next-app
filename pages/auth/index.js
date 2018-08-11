@@ -7,6 +7,7 @@ const authindexPage = (props) => (
         <h1>The Auth Index Page of {props.appName}</h1>
         <p><Link href="/"><a>Home</a></Link></p>
         <User name="Ryan Graham" age={38} />
+        <User name="Natalie Lenderman" age={26} />
         <style jsx>{`
         h1 {
             color: #072F5F; 
