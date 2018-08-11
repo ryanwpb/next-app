@@ -2,9 +2,9 @@ import React from 'react';
 import Link from 'next/link';
 import User from '../../components/User.js'
 
-const authindexPage = () => (
+const authindexPage = (props) => (
     <div>
-        <h1>The Auth Index Page</h1>
+        <h1>The Auth Index Page of {props.appName}</h1>
         <p><Link href="/"><a>Home</a></Link></p>
         <User name="Ryan Graham" age={38} />
         <style jsx>{`
@@ -18,5 +18,14 @@ const authindexPage = () => (
       `}</style>
     </div>
 );
+
+authindexPage.getInitialProps = (context) => {
+    const promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve({ appName: 'Super App (Auth)' });
+        }, 1000)
+    });
+    return promise;
+}
 
 export default authindexPage;

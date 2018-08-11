@@ -18,25 +18,25 @@ var _jsxFileName = "/Users/ryangraham/Desktop/mat-hw/pages/auth/index.js";
 
 
 
-var authindexPage = function authindexPage() {
+var authindexPage = function authindexPage(props) {
   return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
-    className: "jsx-3364408384"
+    className: "jsx-4286497377"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
-    className: "jsx-3364408384"
-  }, "The Auth Index Page"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
+    className: "jsx-4286497377"
+  }, "The Auth Index Page of ", props.appName), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
-    className: "jsx-3364408384"
+    className: "jsx-4286497377"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
     href: "/",
     __source: {
@@ -48,7 +48,7 @@ var authindexPage = function authindexPage() {
       fileName: _jsxFileName,
       lineNumber: 8
     },
-    className: "jsx-3364408384"
+    className: "jsx-4286497377"
   }, "Home"))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_User_js__["a" /* default */], {
     name: "Ryan Graham",
     age: 38,
@@ -57,9 +57,20 @@ var authindexPage = function authindexPage() {
       lineNumber: 9
     }
   }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-    styleId: "3364408384",
-    css: "a.jsx-3364408384{-webkit-text-decoration:none;text-decoration:none;color:#072F5F;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2F1dGgvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBU29CLEFBR2tDLGtEQUNQLGNBQ2xCIiwiZmlsZSI6InBhZ2VzL2F1dGgvaW5kZXguanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL3J5YW5ncmFoYW0vRGVza3RvcC9tYXQtaHciLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcbmltcG9ydCBVc2VyIGZyb20gJy4uLy4uL2NvbXBvbmVudHMvVXNlci5qcydcblxuY29uc3QgYXV0aGluZGV4UGFnZSA9ICgpID0+IChcbiAgICA8ZGl2PlxuICAgICAgICA8aDE+VGhlIEF1dGggSW5kZXggUGFnZTwvaDE+XG4gICAgICAgIDxwPjxMaW5rIGhyZWY9XCIvXCI+PGE+SG9tZTwvYT48L0xpbms+PC9wPlxuICAgICAgICA8VXNlciBuYW1lPVwiUnlhbiBHcmFoYW1cIiBhZ2U9ezM4fSAvPlxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICBhIHtcbiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgICAgIGNvbG9yOiAjMDcyRjVGOyBcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgYXV0aGluZGV4UGFnZTsiXX0= */\n/*@ sourceURL=pages/auth/index.js */"
+    styleId: "4286497377",
+    css: "h1.jsx-4286497377{color:#072F5F;}a.jsx-4286497377{-webkit-text-decoration:none;text-decoration:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2F1dGgvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBU29CLEFBRzJCLEFBR08sY0FGekIsb0NBSUEiLCJmaWxlIjoicGFnZXMvYXV0aC9pbmRleC5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvcnlhbmdyYWhhbS9EZXNrdG9wL21hdC1odyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xuaW1wb3J0IFVzZXIgZnJvbSAnLi4vLi4vY29tcG9uZW50cy9Vc2VyLmpzJ1xuXG5jb25zdCBhdXRoaW5kZXhQYWdlID0gKHByb3BzKSA9PiAoXG4gICAgPGRpdj5cbiAgICAgICAgPGgxPlRoZSBBdXRoIEluZGV4IFBhZ2Ugb2Yge3Byb3BzLmFwcE5hbWV9PC9oMT5cbiAgICAgICAgPHA+PExpbmsgaHJlZj1cIi9cIj48YT5Ib21lPC9hPjwvTGluaz48L3A+XG4gICAgICAgIDxVc2VyIG5hbWU9XCJSeWFuIEdyYWhhbVwiIGFnZT17Mzh9IC8+XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgaDEge1xuICAgICAgICAgICAgY29sb3I6ICMwNzJGNUY7IFxuICAgICAgICB9XG4gICAgICAgICBhIHtcbiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgICAgIFxuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4pO1xuXG5hdXRoaW5kZXhQYWdlLmdldEluaXRpYWxQcm9wcyA9IChjb250ZXh0KSA9PiB7XG4gICAgY29uc3QgcHJvbWlzZSA9IG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHtcbiAgICAgICAgc2V0VGltZW91dCgoKSA9PiB7XG4gICAgICAgICAgICByZXNvbHZlKHsgYXBwTmFtZTogJ1N1cGVyIEFwcCAoQXV0aCknIH0pO1xuICAgICAgICB9LCAxMDAwKVxuICAgIH0pO1xuICAgIHJldHVybiBwcm9taXNlO1xufVxuXG5leHBvcnQgZGVmYXVsdCBhdXRoaW5kZXhQYWdlOyJdfQ== */\n/*@ sourceURL=pages/auth/index.js */"
   }));
+};
+
+authindexPage.getInitialProps = function (context) {
+  var promise = new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      resolve({
+        appName: 'Super App (Auth)'
+      });
+    }, 1000);
+  });
+  return promise;
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (authindexPage);
@@ -86,4 +97,4 @@ var authindexPage = function authindexPage() {
 /***/ })
 
 })
-//# sourceMappingURL=5.891934efc5821c9bf512.hot-update.js.map
+//# sourceMappingURL=5.e42e0676073a186a718a.hot-update.js.map
